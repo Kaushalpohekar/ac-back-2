@@ -10,6 +10,10 @@ app.use(cors());
 app.use(express.json());
 app.use(router);
 
+app.use(cors({
+  origin: 'http://13.235.94.91'
+}));
+
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
