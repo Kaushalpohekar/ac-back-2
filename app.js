@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(router);
 
 app.use(cors({
-  origin: 'http://65.2.125.202'
+  origin: 'http://43.205.124.4'
 }));
 
 app.listen(port, () => {
